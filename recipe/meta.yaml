@@ -1,5 +1,5 @@
 {% set name = "behave-html-pretty-formatter" %}
-{% set version = "1.12.7" %}
+{% set version = "1.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/behave_html_pretty_formatter-{{ version }}.tar.gz
-  sha256: a77012a28115b0ce41386fddd345e41ca6142f597c2cd9083be0e7a43a64c41f
+  sha256: be6a7869f53b8c9c248de69d0c62986f303ea721eec0feca458ff8c6e2dfe886
 
 build:
   noarch: python
