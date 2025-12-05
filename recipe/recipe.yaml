@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: behave-html-pretty-formatter
-  version: "1.15.1"
+  version: "1.16"
 
 package:
   name: ${{ name|lower }}
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/behave_html_pretty_formatter-${{ version }}.tar.gz
-  sha256: dd260e7914d679f14004b5e44623c1bd8fb440fbbf6d07e96566d2ce1b168f37
+  sha256: e9c6e397510d575eaa2ddaab11055a1a413a28d8c998a77d36115d61f6c71f2c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
